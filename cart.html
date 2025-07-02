@@ -34,11 +34,11 @@
 		    		<div class="row d-flex">
 		    			<div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <span class="text">+91 1235 2355 98</span>
+						    <span class="text">+ 1235 2355 98</span>
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    <span class="text">info@shoeshop.com</span>
+						    <span class="text">youremail@email.com</span>
 					    </div>
 					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
 						    <span class="text">3-5 Business days delivery &amp; Free Returns</span>
@@ -89,97 +89,346 @@
       </div>
     </div>
 
-    <section class="ftco-section ftco-cart">
-			<div class="container">
-				<div class="row">
-    			<div class="col-md-12 ftco-animate">
-    				<div class="cart-list">
-	    				<table class="table">
-						    <thead class="thead-primary">
-						      <tr class="text-center">
-						        <th>&nbsp;</th>
-						        <th>&nbsp;</th>
-						        <th>Product</th>
-						        <th>Price</th>
-						        <th>Quantity</th>
-						        <th>Total</th>
-						      </tr>
-						    </thead>
-						    <tbody>
-						      <tr class="text-center">
-						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
-						        
-						        <td class="image-prod"><div class="img" style="background-image:url(images/product-3.jpg);"></div></td>
-						        
-						        <td class="product-name">
-						        	<h3>Nike Free RN 2019 iD</h3>
-						        	<p>Far far away, behind the word mountains, far from the countries</p>
-						        </td>
-						        
-						        <td class="price">$4.90</td>
-						        
-						        <td class="quantity">
-						        	<div class="input-group mb-3">
-					             	<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
-					          	</div>
-					          </td>
-						        
-						        <td class="total">$4.90</td>
-						      </tr><!-- END TR-->
+ <section class="ftco-section ftco-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ftco-animate">
+                <div class="table-responsive">
+                    <div class="cart-list">
+                        <table class="table">
+                            <thead class="thead-primary">
+                                <tr class="text-center">
+                                    <th>&nbsp;</th>
+                                    <th>&nbsp;</th>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-center">
+                                    <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
+                                    <td class="image-prod"><div class="img" style="background-image:url(images/product-3.jpg);"></div></td>
+                                    <td class="product-name">
+                                        <h3>Nike Free RN 2019 iD</h3>
+                                        <p>Far far away, behind the word mountains, far from the countries</p>
+                                    </td>
+                                    <td class="price">$4.90</td>
+                                    <td class="quantity">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-secondary decrease" type="button">-</button>
+                                            </div>
+                                            <input type="number" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary increase" type="button">+</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="total">$4.90</td>
+                                </tr><!-- END TR-->
 
-						      <tr class="text-center">
-						        <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
-						        
-						        <td class="image-prod"><div class="img" style="background-image:url(images/product-4.jpg);"></div></td>
-						        
-						        <td class="product-name">
-						        	<h3>Nike Free RN 2019 iD</h3>
-						        	<p>Far far away, behind the word mountains, far from the countries</p>
-						        </td>
-						        
-						        <td class="price">$15.70</td>
-						        
-						        <td class="quantity">
-						        	<div class="input-group mb-3">
-					             	<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
-					          	</div>
-					          </td>
-						        
-						        <td class="total">$15.70</td>
-						      </tr><!-- END TR-->
-						    </tbody>
-						  </table>
-					  </div>
-    			</div>
-    		</div>
-    		<div class="row justify-content-start">
-    			<div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
-    				<div class="cart-total mb-3">
-    					<h3>Cart Totals</h3>
-    					<p class="d-flex">
-    						<span>Subtotal</span>
-    						<span>$20.60</span>
-    					</p>
-    					<p class="d-flex">
-    						<span>Delivery</span>
-    						<span>$0.00</span>
-    					</p>
-    					<p class="d-flex">
-    						<span>Discount</span>
-    						<span>$3.00</span>
-    					</p>
-    					<hr>
-    					<p class="d-flex total-price">
-    						<span>Total</span>
-    						<span>$17.60</span>
-    					</p>
-    				</div>
-    				<p class="text-center"><a href="checkout.html" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
-    			</div>
-    		</div>
-			</div>
-		</section>
-		
+                                <tr class="text-center">
+                                    <td class="product-remove"><a href="#"><span class="ion-ios-close"></span></a></td>
+                                    <td class="image-prod"><div class="img" style="background-image:url(images/product-4.jpg);"></div></td>
+                                    <td class="product-name">
+                                        <h3>Nike Free RN 2019 iD</h3>
+                                        <p>Far far away, behind the word mountains, far from the countries</p>
+                                    </td>
+                                    <td class="price">$15.70</td>
+                                    <td class="quantity">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-secondary decrease" type="button">-</button>
+                                            </div>
+                                            <input type="number" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-secondary increase" type="button">+</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="total">$15.70</td>
+                                </tr><!-- END TR-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col col-lg-5 col-md-6 mt-5 cart-wrap ftco-animate">
+                <div class="cart-total mb-3">
+                    <h3>Cart Totals</h3>
+                    <p class="d-flex subtotal">
+                        <span>Subtotal</span>
+                        <span>$20.60</span>
+                    </p>
+                    <p class="d-flex delivery">
+                        <span>Delivery</span>
+                        <span>$0.00</span>
+                    </p>
+                    <p class="d-flex discount">
+                        <span>Discount</span>
+                        <span>-$3.00</span>
+                    </p>
+                    <hr>
+                    <p class="d-flex total-price">
+                        <span>Total</span>
+                        <span>$17.60</span>
+                    </p>
+                </div>
+                <p class="text-center"><a href="checkout.html" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Billing and Payment Section -->
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-10 ftco-animate">
+                <form id="contactForm">
+                    <h3 class="mb-4 billing-heading">Billing Details</h3>
+                    <div class="row align-items-end">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="firstname">First Name *</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="Enter your first name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="lastname">Last Name *</label>
+                                <input type="text" class="form-control" id="lastname" placeholder="Enter your last name" required>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="country">State / Country *</label>
+                                <div class="select-wrap">
+                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                    <select name="country" id="country" class="form-control" required>
+                                        <option value="">Select Country</option>
+                                        <option value="France">France</option>
+                                        <option value="Italy">Italy</option>
+                                        <option value="Philippines">Philippines</option>
+                                        <option value="South Korea">South Korea</option>
+                                        <option value="Hongkong">Hong Kong</option>
+                                        <option value="Japan">Japan</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="streetaddress">Street Address *</label>
+                                <input type="text" class="form-control" id="streetaddress" placeholder="House number and street name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="apartment">Apartment, suite, unit, etc. (optional)</label>
+                                <input type="text" class="form-control" id="apartment" placeholder="Apartment, suite, unit, etc.">
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="towncity">Town / City *</label>
+                                <input type="text" class="form-control" id="towncity" placeholder="Enter your city" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="postcodezip">Postcode / ZIP *</label>
+                                <input type="text" class="form-control" id="postcodezip" placeholder="Enter your postcode or ZIP" required>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="emailaddress">Email Address *</label>
+                                <input type="email" class="form-control" id="emailaddress" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="form-group mt-4">
+                                <label for="total-amount">Total Amount</label>
+                                <p class="form-control-static total-amount">$17.60</p>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-md-12">
+                            <div class="form-group mt-4">
+                                <div class="radio">
+                                    <label class="mr-3"><input type="radio" name="create_account" required> Create an Account?</label>
+                                    <label><input type="radio" name="create_account" required> Ship to a different address</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="cart-detail bg-light p-3 p-md-4">
+                            <h3 class="billing-heading mb-4">Payment Method</h3>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label><input type="radio" name="payment_method" class="mr-2" required> Direct Bank Transfer</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label><input type="radio" name="payment_method" class="mr-2" required> Check Payment</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label><input type="radio" name="payment_method" class="mr-2" required> PayPal</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="" class="mr-2" required> I have read and accept the terms and conditions</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <p><button type="submit" class="btn btn-primary py-3 px-4">Place an Order</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .col-xl-10 -->
+        </div>
+    </div>
+</section>
+
+<!-- Consolidated JavaScript -->
+<script>
+// Function to update the total price for each item and the cart total
+function updateTotalPrice() {
+    let subtotal = 0;
+
+    // Update each product's total based on its quantity and price
+    document.querySelectorAll('tbody tr').forEach(row => {
+        let quantityInput = row.querySelector('.quantity input');
+        let quantity = parseInt(quantityInput.value) || 0;
+        let price = parseFloat(row.querySelector('.price').innerText.replace('$', '')) || 0;
+        let total = quantity * price;
+        row.querySelector('.total').innerText = `$${total.toFixed(2)}`;
+        subtotal += total;
+    });
+
+    // Update Subtotal
+    document.querySelector('.cart-total .subtotal span:nth-child(2)').innerText = `$${subtotal.toFixed(2)}`;
+
+    // Apply Discount (example: fixed discount of $3.00)
+    let discount = 3.00;
+    document.querySelector('.cart-total .discount span:nth-child(2)').innerText = `-$${discount.toFixed(2)}`;
+
+    // Delivery (example: fixed delivery fee, can be dynamic too)
+    let delivery = 0.00; // Free delivery in this case
+    document.querySelector('.cart-total .delivery span:nth-child(2)').innerText = `$${delivery.toFixed(2)}`;
+
+    // Grand Total (Subtotal - Discount + Delivery)
+    let grandTotal = subtotal - discount + delivery;
+    document.querySelector('.cart-total .total-price span:nth-child(2)').innerText = `$${grandTotal.toFixed(2)}`;
+
+    // Update Billing Details Total
+    document.querySelector('#contactForm .total-amount').innerText = `$${grandTotal.toFixed(2)}`;
+}
+
+// Event listeners for increasing and decreasing quantity
+document.querySelectorAll('.increase').forEach(button => {
+    button.addEventListener('click', function () {
+        let input = this.closest('td').querySelector('input');
+        let value = parseInt(input.value) || 0;
+        let max = parseInt(input.getAttribute('max')) || 100;
+        if (value < max) {
+            input.value = value + 1;
+            updateTotalPrice();  // Update totals after quantity change
+        }
+    });
+});
+
+document.querySelectorAll('.decrease').forEach(button => {
+    button.addEventListener('click', function () {
+        let input = this.closest('td').querySelector('input');
+        let value = parseInt(input.value) || 0;
+        if (value > parseInt(input.getAttribute('min'))) {  // Prevent quantity from going below min
+            input.value = value - 1;
+            updateTotalPrice();  // Update totals after quantity change
+        }
+    });
+});
+
+// Event listener for quantity input change
+document.querySelectorAll('.quantity input').forEach(input => {
+    input.addEventListener('input', function () {
+        let value = parseInt(this.value);
+        let min = parseInt(this.getAttribute('min')) || 1;
+        let max = parseInt(this.getAttribute('max')) || 100;
+
+        if (isNaN(value) || value < min) {
+            this.value = min;
+        } else if (value > max) {
+            this.value = max;
+        } else {
+            this.value = value;
+        }
+        updateTotalPrice();  // Update totals after quantity change
+    });
+});
+
+// Initial call to set the correct totals on page load
+document.addEventListener('DOMContentLoaded', updateTotalPrice);
+</script>
+
+<style>
+/* Ensure container takes full width and flex layout is applied */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-wrap,
+.billing-wrap {
+    flex: 1;
+    margin: 10px; /* Adjust spacing between the columns */
+}
+
+/* Style for billing details to make it look better */
+#contactForm .form-control-static.total-amount {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+/* Additional Styling for Responsiveness */
+@media (max-width: 768px) {
+    .cart-wrap,
+    .billing-wrap {
+        flex: 100%;
+    }
+}
+</style>
 
     <footer class="ftco-footer ftco-section">
       <div class="container">
@@ -235,9 +484,9 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">SONIYA NAGAR AMARNAGAR FARIDABAD HARYANA 121003 </span></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@shoeshop.com</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -246,8 +495,8 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Created By <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://kraftywebdesign.com/" target="_blank">Gyatri Foundation</a>
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						</p>
           </div>
